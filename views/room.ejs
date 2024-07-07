@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <title>Zoom clone</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="main__left">
+            <div class="main__videos">
+                <div id="video-grid"></div>
+            </div>
+            <div class="main__controls">
+<div class="main__controls__block">
+    <div class="main__controls__button">
+        <i class="ri-mic-off-line"></i>
+        <span>Mute
+            
+        </span>
+    </div>
+
+    <div class="main__controls__button">
+        <i class="ri-video-add-line"></i>
+        <span>Stop Video </span>
+    </div>
+</div>
+            </div>
+        </div>
+        <div class="main__right">
+            <div class="main__header">
+                <h6>Chat</h6>
+            </div>
+        </div>
+    </div>
+    <script>
+        const ROOM_ID = ("<%=roomId %>")
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
