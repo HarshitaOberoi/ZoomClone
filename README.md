@@ -1,3 +1,5 @@
 <h1>ZOOM CLONE</h1>
 
-![myzoom](https://github.com/HarshitaOberoi/ZoomClone/assets/154910521/d4489256-8333-441e-baa2-e7f56304e8cd)
+![zoom demo](https://github.com/HarshitaOberoi/ZoomClone/assets/154910521/1aa9f74f-7ea1-40c7-bad5-685f95c938a5)
+
+
